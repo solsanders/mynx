@@ -1,0 +1,34 @@
+src/*.exe
+src/mynx
+src/mynxd
+src/test_mynx
+.*.swp
+*.*~*
+*.bak
+*.rej
+*.orig
+*.o
+*.patch
+.mynx
+
+# Compilation and Qt preprocessor part
+*.qm
+Makefile
+mynx-qt
+Mynx-Qt.app
+
+# Unit-tests
+Makefile.test
+mynx-qt_test
+
+# Resources cpp
+qrc_*.cpp
+
+# Qt creator
+*.pro.user
+
+# Mac specific
+.DS_Store
+build
+
+!src/leveldb*/Makefile
