@@ -10,13 +10,13 @@ What is Mynx?
 ----------------
 
 Mynx is a lite version of Bitcoin using scrypt as a proof-of-work algorithm.
- - 1 minute block targets
- - subsidy halves in 1.05M blocks (~2 years)
- - ~16 billion total coins
+ - 2.5 minute block targets
+ - subsidy halves in 840k blocks (~4 years)
+ - ~84 million total coins
 
 The rest is the same as Bitcoin.
- - 6944 coins per block
- - 4320 blocks to retarget difficulty
+ - 50 coins per block
+ - 2016 blocks to retarget difficulty
 
 For more information, as well as an immediately useable, binary version of
 the Mynx client sofware, see http://www.mynx.org.
@@ -71,5 +71,3 @@ Unit tests for the GUI code are in `src/qt/test/`. To compile and run them:
     make -f Makefile.test
     ./mynx-qt_test
 
-# mynx
-# mynx

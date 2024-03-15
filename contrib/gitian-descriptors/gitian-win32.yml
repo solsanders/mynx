@@ -13,7 +13,7 @@ packages:
 - "faketime"
 reference_datetime: "2011-01-30 00:00:00"
 remotes:
-- "url": "https://github.com/solsanders/mynx.git"
+- "url": "https://github.com/mynx-project/mynx.git"
   "dir": "mynx"
 files:
 - "qt-win32-4.8.5-gitian-r8.zip"
